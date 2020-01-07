@@ -26,7 +26,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                    Currently 
+                                        Currently, I'm a senior in Stony Brook University. I major in computer science.
                                     </Paragraph>
                                     <br />
                                 </Typography>
