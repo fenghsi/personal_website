@@ -1,0 +1,105 @@
+@import '~antd/dist/antd.css';
+
+
+#homepage{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#Timeline {
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  
+}
+
+#Timeline h1{
+  text-align: center;
+}
+
+
+.prof_picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.even{
+  margin-bottom: 6%;
+  background-image: linear-gradient(to bottom, white, #F0F8FF);
+  text-align: center;
+}
+.odd{
+  margin-bottom: 6%;
+  text-align: center;
+  
+}
+
+.self_intro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.content{
+  background-image: linear-gradient(to bottom, gray #F0F8FF);
+}
+
+
+
+
+.project_picture {
+  max-width:100%;
+  height:auto;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  }
+
+.project_pictur:hover {
+     opacity: 0.5;
+     }
+
+
+
+.projects{
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#867979;
+}
+
+.projects:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
