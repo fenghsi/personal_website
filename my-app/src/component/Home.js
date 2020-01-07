@@ -66,7 +66,7 @@ function Home(props) {
                                             <Card className="projects" title="E-Commerce Website" bordered={false}>
                                                 <img src={ecomm}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <a href="https://github.com/fenghsi/e-commerce-project"><div class="text">Go to Github</div></a>
+                                                <div class="text"><a href="https://github.com/fenghsi/e-commerce-project">Go to Github</a></div>
                                                 </div> 
                                             </Card>
                                         </Col>
@@ -74,7 +74,7 @@ function Home(props) {
                                             <Card className="projects" title="Course site Generator" bordered={false}>
                                                 <img src={csg}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <a href="https://github.com/fenghsi/course_site_generator"><div class="text">Go to Github</div></a>
+                                                <div class="text"><a href="https://github.com/fenghsi/course_site_generator">Go to Github</a></div>
                                                 </div>              
                                             </Card>
                                         </Col>
